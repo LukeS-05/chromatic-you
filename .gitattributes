@@ -1,0 +1,7 @@
+# Block documentation and setup files
+README.md export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+
+.github/ export-ignore
+images/ export-ignore
