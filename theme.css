@@ -88,6 +88,7 @@ body {
   --text-muted: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), var(--accent-l));
   --text-faint: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), calc(var(--accent-l) * 0.9));
 
+  --background-modifier-form-field: var(--color-base-25)
  
 }
 
@@ -104,6 +105,13 @@ select.dropdown {
   --dropdown-background: var(--color-base-25);
   --dropdown-background-hover: var(--color-base-40);
 }
+
+body .dropdown, 
+body select.dropdown {
+    background-color: var(--background-modifier-form-field);
+    color: var(--text-normal);
+}
+
 /* Status bar*/
 
 .status-bar {
