@@ -56,6 +56,9 @@ body {
   --interactive-hover: var(--color-base-40);
   --checkbox-color-hover: var(--color-base-20);
   --link-color: var(--color-accent-2);
+  /* callouts */
+  --callout-radius: 8px;
+  --callout-border-width: 2px;
 }
 
 /* theme and inline title */
@@ -112,6 +115,24 @@ body select.dropdown {
     color: var(--text-normal);
 }
 
+/* callouts */
+
+.callout {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.callout:hover {
+  filter: brightness(1.15);
+}
+
+.callout .callout-fold {
+  margin-left: auto;
+}
+
+.callout .callout-icon {
+  margin-right: 4px;
+}
 /* Status bar*/
 
 .status-bar {
