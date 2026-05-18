@@ -99,6 +99,11 @@ body {
   text-align: center;
 }
 
+/* dropdown */
+select.dropdown {
+  --dropdown-background: var(--color-base-25);
+  --dropdown-background-hover: var(--color-base-40);
+}
 /* Status bar*/
 
 .status-bar {
