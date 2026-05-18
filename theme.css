@@ -79,14 +79,14 @@ body {
   --background-secondary: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 3), calc(var(--accent-l) * 0.2));
   --background-secondary-alt: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 3), calc(var(--accent-l) * 0.24));
 
-  --background-modifier-hover: var(--color-base-20);
-  --background-modifier-active-hover: var(--color-base-20);
+  --background-modifier-hover: var(--color-base-30);
+  --background-modifier-active-hover: var(--color-base-30);
 
   --background-modifier-border: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 3), calc(var(--accent-l) * 0.4));
   --background-modifier-border-hover: var(--color-base-40);
-  --text-normal: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), calc(var(--accent-l) * 1.2));
-  --text-muted: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), var(--accent-l));
-  --text-faint: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), calc(var(--accent-l) * 0.9));
+  --text-normal: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), calc(var(--accent-l) * 1.25));
+  --text-muted: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), var(--accent-l) * 1.15);
+  --text-faint: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), calc(var(--accent-l) * 1.05));
 
   --background-modifier-form-field: var(--color-base-25)
  
