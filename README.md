@@ -1,7 +1,7 @@
 ## Neon You
 An Obsidian theme with a dynamic colour base and elements based on your accent colour.
 
-[Download and Install](https://lukes-05.github.io/docs/graphite-you/pages/Download-Install.html)
+[Download and Install](https://lukes-05.github.io/docs/neon-you/pages/Download-Install.html)
 
 ### A theme that adapts to you.
 <img src="images/Img1.png" width=600>
