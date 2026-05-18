@@ -23,12 +23,12 @@ jobs:
       # Runs a single command using the runners shell
       - name: Create the folder to download and import
         run: |
-          mkdir "Neon You"
-          cp theme.css manifest.json "Neon You"
-          zip -r "Neon You.zip" "Neon You"
+          mkdir "Chromatic You"
+          cp theme.css manifest.json "Chromatic You"
+          zip -r "Chromatic You.zip" "Chromatic You"
 
       # Runs a set of commands using the runners shell
       - name: Add zip folder to latest release
-        run: gh release upload "${{ github.event.release.tag_name }}" "Neon You.zip" --clobber
+        run: gh release upload "${{ github.event.release.tag_name }}" "Chromatic You.zip" --clobber
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
