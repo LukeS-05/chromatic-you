@@ -52,6 +52,10 @@ body {
   /* navigation */
   --nav-item-padding: 6px var(--size-4-2) 6px var(--size-4-6);
   --nav-item-radius: 6px;
+  --interactive-normal: var(--color-base-25);
+  --interactive-hover: var(--color-base-40);
+  --checkbox-color-hover: var(--color-base-20);
+  --link-color: var(--color-accent-2);
 }
 
 /* theme and inline title */
@@ -75,20 +79,16 @@ body {
   --background-secondary: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 3), calc(var(--accent-l) * 0.2));
   --background-secondary-alt: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 3), calc(var(--accent-l) * 0.24));
 
-  --background-modifier-hover: rgba(255, 255, 255, 0.05);
-  --background-modifier-active-hover: rgba(255, 255, 255, 0.08);
+  --background-modifier-hover: var(--color-base-20);
+  --background-modifier-active-hover: var(--color-base-20);
 
-  --background-modifier-border: #383838;
-  --background-modifier-border-hover: #505050;
-
-  --background-modifier-form-field: #212121;
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.28);
-
+  --background-modifier-border: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 3), calc(var(--accent-l) * 0.4));
+  --background-modifier-border-hover: var(--color-base-40);
   --text-normal: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), calc(var(--accent-l) * 1.2));
   --text-muted: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), var(--accent-l));
   --text-faint: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) / 2), calc(var(--accent-l) * 0.9));
 
-  --link-color: var(--color-accent-2);
+ 
 }
 
 .inline-title {
