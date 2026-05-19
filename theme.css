@@ -98,7 +98,7 @@ body {
 .inline-title {
   margin-bottom: 16px;
   padding-bottom: 14px;
-  border-bottom: 2px solid var(--color-base-20);
+  border-bottom: 2px solid var(--hr-color);
   color: var(--color-accent-2);
   text-align: center;
 }
