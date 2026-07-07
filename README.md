@@ -1,7 +1,7 @@
 ## Chromatic You
 An Obsidian theme with a dynamic colour base and elements based on your accent colour.
 
-[https://lukes-05.github.io/obsidian-themes/chromatic.html](Learn More)
+[Learn More](https://lukes-05.github.io/obsidian-themes/chromatic.html)
 
 > [!WARNING]
 > DO NOT apply this theme if your accent colour is very dark (e.g. #000000); this will make your Obsidian interface fully unreadable.
