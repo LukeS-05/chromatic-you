@@ -1,7 +1,10 @@
 ## Chromatic You
 An Obsidian theme with a dynamic colour base and elements based on your accent colour.
 
-[Download and Install](https://lukes-05.github.io/docs/neon-you/pages/Download-Install.html)
+[https://lukes-05.github.io/obsidian-themes/chromatic.html](Learn More)
+
+> [!WARNING]
+> DO NOT apply this theme if your accent colour is very dark (e.g. #000000); this will make your Obsidian interface fully unreadable.
 
 ### A theme that adapts to you.
 <img src="images/Img1.png" width=600>
